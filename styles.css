@@ -1,62 +1,54 @@
-
-/* Your CSS Code here. */
-/* Reset some basic styles */
 body {
-	font-family: Arial, sans-serif;
-	background-color: #f4f4f4;
-	margin: 0;
-	padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
-/* Center the form */
 form {
-	background-color: white;
-	max-width: 400px;
-	margin: 50px auto;
-	padding: 30px 40px;
-	border-radius: 10px;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Style labels */
 label {
-	display: block;
-	margin-bottom: 5px;
-	font-weight: bold;
-	color: #333;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
 }
 
-/* Style inputs and select */
 input[type="text"],
 select {
-	width: 100%;
-	padding: 10px;
-	margin-bottom: 20px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-	box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
-/* Style checkbox */
 input[type="checkbox"] {
-	margin-right: 8px;
-	margin-bottom: 20px;
-	transform: scale(1.2);
+  margin-right: 8px;
+  margin-bottom: 20px;
+  transform: scale(1.2);
 }
 
-/* Style button */
 button {
-	width: 100%;
-	background-color: #007BFF;
-	color: white;
-	padding: 10px;
-	border: none;
-	border-radius: 5px;
-	font-size: 16px;
-	cursor: pointer;
-	transition: background-color 0.3s;
+  width: 100%;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-	background-color: #0056b3;
+  background-color: #0056b3;
 }
